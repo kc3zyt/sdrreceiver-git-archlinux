@@ -10,7 +10,7 @@ license=('MIT')
 depends=(
     'python'
 )
-makedepends=('git' 'qt6-base' 'qt5-base')
+makedepends=('git' 'qt6-base' 'qt5-base' 'cmake' 'ninja' 'rtl-sdr' 'zeromq' 'libusb' 'qt6-svg' 'qt6-multimedia')
 provides=("${_pkgname}")
 conflicts=("${_pkgname}")
 source=("${_pkgname}::git+${url}.git")

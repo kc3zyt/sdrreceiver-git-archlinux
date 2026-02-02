@@ -10,7 +10,7 @@ license=('MIT')
 depends=(
     'python'
 )
-makedepends=('git')
+makedepends=('git' 'qmake')
 provides=("${_pkgname}")
 conflicts=("${_pkgname}")
 source=("${_pkgname}::git+${url}.git")

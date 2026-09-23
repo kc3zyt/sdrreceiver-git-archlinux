@@ -1,0 +1,27 @@
+pkgbase = sdrreceiver-git
+	pkgdesc = An SDR Receiver purposely for JAERO
+	pkgver = v2.0.r3.g9697d36
+	pkgrel = 1
+	url = https://github.com/jeroenbeijer/SDRReceiver
+	arch = i686
+	arch = x86_64
+	arch = armv7h
+	arch = aarch64
+	license = MIT
+	makedepends = git
+	makedepends = qt6-base
+	makedepends = qt5-base
+	makedepends = cmake
+	makedepends = ninja
+	makedepends = rtl-sdr
+	makedepends = zeromq
+	makedepends = libusb
+	makedepends = qt6-svg
+	makedepends = qt6-multimedia
+	depends = python
+	provides = sdrreceiver
+	conflicts = sdrreceiver
+	source = sdrreceiver::git+https://github.com/jeroenbeijer/SDRReceiver.git
+	sha256sums = SKIP
+
+pkgname = sdrreceiver-git

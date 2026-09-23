@@ -1,7 +1,7 @@
 # Maintainer: Your Name <youremail@domain.com>
 pkgname=sdrreceiver-git
 _pkgname=sdrreceiver
-pkgver=latest.r0.g545837b
+pkgver=v2.0.r3.g9697d36
 pkgrel=1
 pkgdesc="An SDR Receiver purposely for JAERO"
 arch=('i686' 'x86_64' 'armv7h' 'aarch64')
